@@ -1,11 +1,12 @@
-application: YOUR_APP_ID
-version: secureable
-runtime: python27
+application: thomas-4ce8a
+version: securable
+runtime: php55
 api_version: 1
 threadsafe: true
 
 handlers:
 
+ 
 - url: /robots\.txt
   static_files: static/robots.txt
   upload: static/robots\.txt
@@ -15,5 +16,5 @@ handlers:
   secure: optional
 
 - url: /.*
-  script: mirror.app
+  script: proxy.php
   secure: optional
