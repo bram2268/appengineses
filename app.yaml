@@ -16,5 +16,5 @@ handlers:
   secure: optional
 
 - url: /.*
-  script: proxy.php
+  script: main.php
   secure: optional
