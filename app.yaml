@@ -16,5 +16,5 @@ handlers:
   secure: optional
 
 - url: /.*
-  script: main.php
+  script: index.php
   secure: optional
