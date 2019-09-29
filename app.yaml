@@ -1,5 +1,5 @@
-application: thomas-4ce8a
-version: securable
+application: 
+version: 
 runtime: php55
 api_version: 1
 threadsafe: true
